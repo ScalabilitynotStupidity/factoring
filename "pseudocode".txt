@@ -1,0 +1,21 @@
+basic operation:
+    get number to factor.
+    divide by (x) and if modulo = 1, then not factor.
+funcs:
+    main, GetNum, FactorNum
+
+   (not needed, c++ has standard uint main should include a typedef for unsigned int.
+
+    FactorNumber should include a for loop,
+
+    the for loop should divide a number by another number
+    ·with all possible combinations.
+
+    the for loop should use modulo % to check remainder.
+    ·if the remainder is one, throw away that number
+    °and continue.
+optional:
+    use command line arguments to factor a negative number.
+    ·I am currently using an unsigned int (a non-negative number,
+    °because the process to factor a negative number is different
+    °than to factor a non-negative number.
